@@ -1,3 +1,5 @@
+@file:Suppress("UnusedImport", "UnusedImport")
+
 package ru.vladalexeco.alarmclockforprogrammers
 
 import android.content.Intent
@@ -6,10 +8,8 @@ import android.media.RingtoneManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import ru.vladalexeco.alarmclockforprogrammers.databinding.ActivityTaskScreenBinding
 
 class TaskScreenActivity : AppCompatActivity() {
